@@ -12,30 +12,25 @@ The performance of the model is evaluated using accuracy, which measures the per
 ## Data Description
 The dataset includes several features that may influence the survival of passengers. Below is a brief description of each feature:
 
--Survival: Indicator of survival (0 = Did not survive, 1 = Survived).
-<br>
--Pclass: Passenger’s class (1 = First class, 2 = Second class, 3 = Third class), which also serves as a proxy for socio-economic status.
-<br>
--Sex: Gender of the passenger (male or female).
-<br>
--Age: Age of the passenger in years; fractions for those less than 1 year old.
-<br>
--SibSp: Number of siblings or spouses aboard the Titanic.
-<br>
--Parch: Number of parents or children aboard the Titanic.
--Ticket: Ticket number assigned to the passenger.
--Fare: The fare paid by the passenger.
--Cabin: Cabin number assigned to the passenger.
--Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+- Survival: Indicator of survival (0 = Did not survive, 1 = Survived).
+- Pclass: Passenger’s class (1 = First class, 2 = Second class, 3 = Third class), which also serves as a proxy for socio-economic status.
+- Sex: Gender of the passenger (male or female).
+- Age: Age of the passenger in years; fractions for those less than 1 year old.
+- SibSp: Number of siblings or spouses aboard the Titanic.
+- Parch: Number of parents or children aboard the Titanic.
+- Ticket: Ticket number assigned to the passenger.
+- Fare: The fare paid by the passenger.
+- Cabin: Cabin number assigned to the passenger.
+- Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
 ## Exploratory Data Analysis (EDA)
 The EDA involves visualizing and analyzing the distribution of features such as Age, Fare, Pclass, and Sex, among others. Key insights include:
 
--Age Distribution: Compared before and after handling missing values.
--Gender vs. Survival: Explored the impact of gender on survival.
--Pclass vs. Survival: Analyzed survival rates across different passenger classes.
--Travel Alone vs. Survival: Created a new feature indicating if a passenger traveled alone, and studied its influence on survival.
--The analysis uses various visualization techniques, including histograms, density plots, and bar plots, to identify patterns and relationships between features and survival.
+- Age Distribution: Compared before and after handling missing values.
+- Gender vs. Survival: Explored the impact of gender on survival.
+- Pclass vs. Survival: Analyzed survival rates across different passenger classes.
+- Travel Alone vs. Survival: Created a new feature indicating if a passenger traveled alone, and studied its influence on survival.
+- The analysis uses various visualization techniques, including histograms, density plots, and bar plots, to identify patterns and relationships between features and survival.
 
 ## Modeling
 The project implements two machine learning models from scratch:
